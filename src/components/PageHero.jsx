@@ -1,5 +1,6 @@
 import React from "react";
 import SocialLink from "./SocialLink";
+import HeroEntrance from "./HeroEntrance";
 
 export default function PageHero({
   badgeText,
@@ -16,22 +17,27 @@ export default function PageHero({
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-12 lg:gap-0">
           {/* LEFT: HEADING */}
           <div className="max-w-[600px]">
-            <div className="flex items-center gap-4 mb-4">
-              <div className="w-5 h-5 rounded-full bg-gray-200 flex items-center justify-center border border-gray-300">
-                <div className="w-2 h-2 rounded-full bg-black"></div>
+            <HeroEntrance delay="delay-0">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-5 h-5 rounded-full bg-gray-200 flex items-center justify-center border border-gray-300">
+                  <div className="w-2 h-2 rounded-full bg-black"></div>
+                </div>
+                <h5 className="type-h6 tracking-tight uppercase font-bold">
+                  {badgeText}
+                </h5>
               </div>
-              <h5 className="type-h6 tracking-tight uppercase font-bold">
-                {badgeText}
-              </h5>
-            </div>
-            <h1 className="type-h1 tracking-tight">{title}</h1>
+            </HeroEntrance>
+            <HeroEntrance delay="delay-150">
+              <h1 className="type-h1 tracking-tight">{title}</h1>
+            </HeroEntrance>
           </div>
         </div>
       </div>
 
       {/* BOTTOM RIBBON */}
-      <div className="w-full bg-[var(--color-black)] py-10 md:py-12">
-        <div className="max-w-[1400px] mx-auto px-6">
+      <HeroEntrance delay="delay-300">
+        <div className="w-full bg-[var(--color-black)] py-10 md:py-12">
+          <div className="max-w-[1400px] mx-auto px-6">
           {isContact ? (
             /* --- CONTACT PAGE LAYOUT --- */
             <div className="flex flex-col md:flex-row justify-between items-start gap-10 md:gap-0">
@@ -94,6 +100,7 @@ export default function PageHero({
           )}
         </div>
       </div>
-    </section>
-  );
+    </HeroEntrance>
+  </section>
+);
 }
