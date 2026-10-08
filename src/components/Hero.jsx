@@ -12,6 +12,7 @@ export default function Hero() {
   const marqueeItems = [
     "WordPress Builds",
     "WooCommerce Stores",
+    "Shopify Stores",
     "MERN Applications",
     "Landing Pages",
     "Website Redesigns",
@@ -33,17 +34,17 @@ export default function Hero() {
           <h1
             className={`type-h1 text-[28px] md:text-[40px] tracking-[-0.02em] leading-[1.1] mb-3 ${revealClasses("delay-0")}`}
           >
-            Web Development Partner for
-            <br className="hidden md:block" /> Digital Agencies
+            Web Development for growing
+            <br className="hidden md:block" /> Businesses and Agencies
           </h1>
 
           <p
             className={`type-body-large text-[14px] md:text-[18px] text-[var(--color-dim-grey)] max-w-2xl leading-relaxed mb-5 ${revealClasses("delay-150")}`}
           >
-            I&apos;m Sadiq, a web developer helping agencies deliver client
-            projects on tight deadlines. Delivered 10+ live projects across
-            multiple industries from build to deployment using WordPress,
-            WooCommerce & MERN stack to build production-ready websites.
+            I&apos;m Sadiq, a web developer helping businesses and agencies deliver client
+            projects on time. Delivered 11+ live projects across
+            multiple industries from development to deployment using WordPress,
+            WooCommerce, Shopify & MERN stack to build production-ready websites.
           </p>
 
           <div className={revealClasses("delay-300")}>
