@@ -15,6 +15,10 @@
 /* 2. DEFINE TYPOGRAPHY SYSTEM */
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   /* H1: Weight:Medium, Styles:Bold(Italic), Color: Black, Size:40px */
   h1,
   .type-h1 {
