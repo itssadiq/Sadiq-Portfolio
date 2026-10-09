@@ -4,8 +4,8 @@ import Profile from "../../public/profile.png";
 
 export default function AboutMe() {
   const expertise = [
-    "10+ Projects Delivered",
-    "1+ Year Agency Expertise",
+    "11+ Projects Delivered",
+    "1+ Years Agency Expertise",
     "100% On-Time Delivery",
     "<08 hrs Response Time",
   ];
@@ -44,8 +44,8 @@ export default function AboutMe() {
           <div className="w-full lg:w-[55%] flex flex-col justify-between lg:px-12 pt-2">
             <div className="flex flex-col gap-4">
               <p className="type-body">
-                I&apos;m a web developer partnering with digital agencies as a
-                dedicated build resource. 1+ year of agency experience, 10+ live
+                I&apos;m a web developer partnering with digital agencies and businesses as a
+                dedicated build resource. 1+ years of agency experience, 11+ live
                 projects delivered clean, on time, and handed off without
                 friction.
               </p>
@@ -53,7 +53,7 @@ export default function AboutMe() {
                 I treat every project like it has my name on it. Clear
                 communication, no micromanagement needed, and work that holds up
                 long after handoff. I&apos;m not here to close tickets, I&apos;m
-                here to make your agency deliver.
+                here to make your agency and businesses deliver.
               </p>
             </div>
 

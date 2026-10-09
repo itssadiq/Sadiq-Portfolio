@@ -54,8 +54,7 @@ export default function Services() {
           </div>
 
           <p className="type-body-large text-[var(--color-dim-grey)] max-w-2xl leading-relaxed">
-            Flexible development across WordPress and custom builds. Designed
-            for agency workflows, with client-ready revisions.
+            Flexible development across WordPress and custom builds. Designed to deliver with client-ready revisions.
           </p>
         </div>
 
