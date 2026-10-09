@@ -60,8 +60,8 @@ export const projectsData = [
   service: "Shopify Development",
   liveUrl: "https://urbanhomewares.com.au/",
   images: {
-    main: "/urban-homewares-site.png",
-    mobile: "/urban-homewares-mobile.png",
+    main: "/Urban-Homewares-site.png",
+    mobile: "/Urban-Homewares-mobile.png",
   },
   features: [
     {
