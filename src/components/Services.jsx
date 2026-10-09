@@ -11,7 +11,13 @@ export default function Services() {
       timeline: "3–7 days",
     },
     {
-      title: "MERN Stack Development",
+      title: "Shopify Stores",
+      description:
+        "Custom Shopify stores built for performance and conversions, with seamless integrations and client-ready finishes.",
+      timeline: "3–10 days",
+    },
+    {
+      title: "MERN Applications",
       description:
         "Custom web applications for clients who need something built beyond a template.",
       timeline: "As per project scope",
